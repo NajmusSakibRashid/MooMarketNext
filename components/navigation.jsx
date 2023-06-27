@@ -13,7 +13,7 @@ const Navigation = ({children}) => {
     return (
         <>
             <div className={"navigation"}>
-                <div className="side-bar-icon-holder" id="side-bar-icon" onClick={sidebarHandler}><Image src='/../public/Icons/sidebar.png' width={100} height={100} alt='side bar icon'/></div>
+                <div className="side-bar-icon-holder" id="side-bar-icon" onClick={sidebarHandler}><Image src='/Icons/sidebar.png' width={100} height={100} alt='side bar icon'/></div>
                 <div className="logo">Logo</div>
                 <div className="menu">
                     <div className="link"><Link href="./index.html">Home</Link></div>
