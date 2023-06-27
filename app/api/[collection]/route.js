@@ -7,7 +7,6 @@ export const GET = async (request, { params }) => {
     const data=await db
         .collection(params.collection)
         .find({})
-        .sort({"id":1})
         .toArray()
     return NextResponse.json(data)
 }
