@@ -15,7 +15,7 @@ const Post = ({ id, children, collection }) => {
     return (
         <>
             <div class="post">
-                <Image src={`/${collection}/${children.image}`} width={200} height={140} alt="product image" />
+                <Image src={`/${collection}/${children.image}`} width={200} height={140} alt="product image" priority={false}/>
                 <ul class="specifications">
                     <h3>{children.title}</h3>
                     {children.specifications.map(specification => {
