@@ -1,0 +1,19 @@
+.post-container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-container>button{
+    height: 20px;
+    background-color: rgba(0,0,0,0);
+    border-style: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.post-container>button:hover{
+    scale: 1.2;
+}

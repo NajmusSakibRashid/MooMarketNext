@@ -1,0 +1,88 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgreen;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    z-index: 100;
+}
+
+.side-bar-icon-holder {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.side-bar-icon-holder:hover {
+    background-color: rgb(170, 255, 173);
+}
+
+.side-bar-icon-holder>img {
+    width: 70%;
+    height: 70%;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.link:nth-child(n+2) {
+    border-left-style: solid;
+    border-left-color: darkgreen;
+}
+
+.link>a {
+    color: rgb(175, 114, 0);
+    text-decoration: none;
+    transition: color .5s ease;
+    font-weight: bold;
+}
+
+.link>a:hover {
+    color: rgb(133, 0, 0)
+}
+
+.profile-button {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 40px;
+    border-style: none;
+    background-color: aqua;
+    transition: all .5s ease;
+}
+
+.profile-button:hover {
+    background-color: darkblue;
+    color: white;
+    scale: 1.1;
+}
