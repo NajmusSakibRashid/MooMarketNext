@@ -8,6 +8,7 @@
     position:relative;
     margin:30px;
     background-color: rgba(0, 100, 0, .1);
+    transition: all .5s ease;
 }
 
 .post:hover {
@@ -30,10 +31,12 @@
     border-style: none;
     border-radius: 5px;
     padding: 5px;
+    transition:all .5s ease;
 }
 
 .post>button:hover {
     background-color: rgba(255, 0, 0, 1);
+    scale:1.2;
 }
 
 .post>ul{

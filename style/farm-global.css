@@ -1,0 +1,16 @@
+.grid {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 25px;
+}
+
+.header {
+    padding: 5px;
+    padding-left: 30px;
+    color: white;
+    grid-column: 1/-1;
+    font-size: 30px;
+    background: linear-gradient(to right, #e88e5d, #00000000);
+}
