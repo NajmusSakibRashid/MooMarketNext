@@ -1,0 +1,15 @@
+.informations {
+  margin: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.horizontal-line{
+  align-self: center;
+  border-radius: 2px;
+  width:80%;
+  height:2px;
+  background: radial-gradient(circle,orange,rgba(255, 165, 0, 0.5));
+}
